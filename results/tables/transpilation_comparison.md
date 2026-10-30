@@ -1,0 +1,5 @@
+| Name | Total Qubits | Depth | Total Operations | CX Count | RZ Count | SX Count | X Count | Measure Count | Logical CX | Extra CX (Routing) | CX Overhead Ratio | Estimated SWAPs | Depth Overhead |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Logical (Ideal) | 4 | 19 | 40 | 12 | 8 | 0 | 0 | 4 | 12 | 0 | 1.0 | 0 | 0 |
+| Processor A (5Q Linear) | 5 | 104 | 264 | 42 | 138 | 80 | 0 | 4 | 12 | 30 | 3.5 | 10 | 85 |
+| Processor B (9Q Mesh) | 9 | 40 | 112 | 12 | 56 | 40 | 0 | 4 | 12 | 0 | 1.0 | 0 | 21 |

@@ -1,0 +1,10 @@
+{
+  "name": "Processor B",
+  "num_qubits": 9,
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "coupling_map": [[0, 1], [1, 2], [1, 6], [2, 3], [2, 6], [2, 5], [3, 4], [4, 5], [5, 6], [6, 7], [6, 8], [8, 0]],
+  "noise": {"single_qubit_depolarizing": 0.001, "cx_depolarizing": 0.005, "readout_error": 0.01},
+  "transpile": {"optimization_level": 1, "seed_transpiler": 42},
+  "shots": 4096,
+  "note": "Participant-defined sparse heavy-hex-inspired topology."
+}

@@ -1,0 +1,13 @@
+Dataset,Model,Accuracy_Mean,Accuracy_Std,Balanced_Acc_Mean,Balanced_Acc_Std,Macro_F1_Mean,Macro_F1_Std,Precision_Mean,Precision_Std,Recall_Mean,Recall_Std,ROC_AUC_Mean,ROC_AUC_Std,Brier_MSE_Mean,Brier_MSE_Std,Exp_Error_vs_Ideal_Mean,Exp_Error_vs_Ideal_Std,Confusion_Matrix_Mean
+Original Phase 1 (Seed 42),Classical Baseline (Logistic Regression),0.925,0.0,0.9211,0.0,0.9238,0.0,1.0,0.0,0.8421,0.0,0.9298,0.0,0.0701,0.0,0.0,0.0,"TN=21, FP=0, FN=3, TP=16"
+Original Phase 1 (Seed 42),Ideal VQC (Statevector),0.925,0.0,0.9211,0.0,0.9238,0.0,1.0,0.0,0.8421,0.0,0.9173,0.0,0.1487,0.0,0.0,0.0,"TN=21, FP=0, FN=3, TP=16"
+Original Phase 1 (Seed 42),Processor A (Noisy 5Q Linear),0.9263,0.0056,0.9224,0.0059,0.9251,0.0057,1.0,0.0,0.8447,0.0118,0.9182,0.0044,0.1716,0.0009,0.0097,0.0004,"TN=21, FP=0, FN=3, TP=16"
+Original Phase 1 (Seed 42),Processor B (Noisy 9Q Mesh),0.9238,0.0056,0.9199,0.0053,0.9226,0.0055,0.9971,0.0132,0.8421,0.0,0.917,0.0027,0.1606,0.001,0.003,0.0003,"TN=21, FP=0, FN=3, TP=16"
+In-Distribution Independent Split (Seed 1234),Classical Baseline (Logistic Regression),0.975,0.0,0.9722,0.0,0.9746,0.0,1.0,0.0,0.9444,0.0,0.947,0.0,0.0454,0.0,0.0,0.0,"TN=22, FP=0, FN=1, TP=17"
+In-Distribution Independent Split (Seed 1234),Ideal VQC (Statevector),0.975,0.0,0.9722,0.0,0.9746,0.0,1.0,0.0,0.9444,0.0,0.9495,0.0,0.1312,0.0,0.0,0.0,"TN=22, FP=0, FN=1, TP=17"
+In-Distribution Independent Split (Seed 1234),Processor A (Noisy 5Q Linear),0.975,0.0,0.9722,0.0,0.9746,0.0,1.0,0.0,0.9444,0.0,0.9503,0.0027,0.1591,0.0013,0.0099,0.0006,"TN=22, FP=0, FN=1, TP=17"
+In-Distribution Independent Split (Seed 1234),Processor B (Noisy 9Q Mesh),0.975,0.0,0.9722,0.0,0.9746,0.0,1.0,0.0,0.9444,0.0,0.9507,0.0024,0.1454,0.0012,0.003,0.0003,"TN=22, FP=0, FN=1, TP=17"
+Out-of-Distribution Generation (Seed 1234),Classical Baseline (Logistic Regression),0.125,0.0,0.1317,0.0,0.1245,0.0,0.125,0.0,0.087,0.0,0.0921,0.0,0.7479,0.0,0.0,0.0,"TN=3, FP=14, FN=21, TP=2"
+Out-of-Distribution Generation (Seed 1234),Ideal VQC (Statevector),0.2,0.0,0.1969,0.0,0.198,0.0,0.2632,0.0,0.2174,0.0,0.1458,0.0,0.3544,0.0,0.0,0.0,"TN=3, FP=14, FN=18, TP=5"
+Out-of-Distribution Generation (Seed 1234),Processor A (Noisy 5Q Linear),0.2125,0.019,0.2047,0.0185,0.2067,0.0183,0.2899,0.0242,0.2565,0.0312,0.148,0.0091,0.321,0.0013,0.0075,0.0003,"TN=3, FP=14, FN=17, TP=6"
+Out-of-Distribution Generation (Seed 1234),Processor B (Noisy 9Q Mesh),0.2075,0.02,0.2008,0.0202,0.2028,0.0199,0.2821,0.0227,0.2457,0.0255,0.1489,0.0058,0.3365,0.0013,0.0022,0.0002,"TN=3, FP=14, FN=17, TP=6"

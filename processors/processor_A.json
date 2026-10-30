@@ -1,0 +1,10 @@
+{
+  "name": "Processor A",
+  "num_qubits": 5,
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "coupling_map": [[0, 1], [1, 2], [2, 3], [3, 4]],
+  "noise": {"single_qubit_depolarizing": 0.001, "cx_depolarizing": 0.005, "readout_error": 0.01},
+  "transpile": {"optimization_level": 1, "seed_transpiler": 42},
+  "shots": 4096,
+  "note": "Participant-defined valid baseline linear topology."
+}

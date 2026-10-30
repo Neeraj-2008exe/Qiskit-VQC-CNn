@@ -1,0 +1,3 @@
+model,accuracy,f1,recall
+VQC,0.925,0.9143,0.8421
+LogisticRegression,0.925,0.9143,0.8421

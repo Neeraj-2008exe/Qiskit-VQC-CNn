@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Keep generated outputs only when they are intentional, reproducible artifacts.
+results/raw/
+*.log
+
+# Local editor and OS files.
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

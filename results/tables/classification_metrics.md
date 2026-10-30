@@ -1,0 +1,6 @@
+| Model | Accuracy | Balanced Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+| --- | --- | --- | --- | --- | --- | --- |
+| Classical Baseline (Logistic Regression) | 0.925 | 0.9211 | 1.0 | 0.8421 | 0.9143 | 0.9298 |
+| Ideal VQC (Statevector) | 0.925 | 0.9211 | 1.0 | 0.8421 | 0.9143 | 0.9173 |
+| Processor A (Noisy 5Q Linear) | 0.925 | 0.9211 | 1.0 | 0.8421 | 0.9143 | 0.9148 |
+| Processor B (Noisy 9Q Mesh) | 0.925 | 0.9211 | 1.0 | 0.8421 | 0.9143 | 0.9148 |

@@ -1,0 +1,481 @@
+dataset,sample_id,model,seed_simulator,true_label,raw_expectation,class_1_probability,binary_prediction,is_correct,squared_error
+Original Phase 1 (Seed 42),0,Classical Baseline (Logistic Regression),42,0,-2.819999516345302,0.05625295924969515,0,1,0.0031643954243478632
+Original Phase 1 (Seed 42),0,Ideal VQC (Statevector),42,0,-0.33513038725916283,0.33243480637041856,0,1,0.11051290048653768
+Original Phase 1 (Seed 42),0,Processor A (Noisy 5Q Linear),42,0,-0.26513671875,0.367431640625,0,1,0.13500601053237915
+Original Phase 1 (Seed 42),0,Processor B (Noisy 9Q Mesh),42,0,-0.31103515625,0.344482421875,0,1,0.11866813898086548
+Original Phase 1 (Seed 42),1,Classical Baseline (Logistic Regression),42,1,6.590899933622695,0.9986290780320309,1,1,1.8794270422601691e-06
+Original Phase 1 (Seed 42),1,Ideal VQC (Statevector),42,1,0.49704301707536314,0.7485215085376815,1,1,0.06324143166816339
+Original Phase 1 (Seed 42),1,Processor A (Noisy 5Q Linear),42,1,0.35205078125,0.676025390625,1,1,0.10495954751968384
+Original Phase 1 (Seed 42),1,Processor B (Noisy 9Q Mesh),42,1,0.412109375,0.7060546875,1,1,0.08640384674072266
+Original Phase 1 (Seed 42),2,Classical Baseline (Logistic Regression),42,1,2.3473651235067114,0.9127245655513246,1,1,0.0076170014582050295
+Original Phase 1 (Seed 42),2,Ideal VQC (Statevector),42,1,0.11549922927212329,0.5577496146360617,1,1,0.19558540335455196
+Original Phase 1 (Seed 42),2,Processor A (Noisy 5Q Linear),42,1,0.09375,0.546875,1,1,0.205322265625
+Original Phase 1 (Seed 42),2,Processor B (Noisy 9Q Mesh),42,1,0.0986328125,0.54931640625,1,1,0.20311570167541504
+Original Phase 1 (Seed 42),3,Classical Baseline (Logistic Regression),42,1,4.809646619809526,0.9919151579428022,1,1,6.536467108983498e-05
+Original Phase 1 (Seed 42),3,Ideal VQC (Statevector),42,1,0.3711894762903861,0.685594738145193,1,1,0.09885066868198976
+Original Phase 1 (Seed 42),3,Processor A (Noisy 5Q Linear),42,1,0.27197265625,0.635986328125,1,1,0.13250595331192017
+Original Phase 1 (Seed 42),3,Processor B (Noisy 9Q Mesh),42,1,0.30126953125,0.650634765625,1,1,0.12205606698989868
+Original Phase 1 (Seed 42),4,Classical Baseline (Logistic Regression),42,0,-5.382466724799602,0.004575438842482588,0,1,2.0934640601298407e-05
+Original Phase 1 (Seed 42),4,Ideal VQC (Statevector),42,0,-0.3648907708644313,0.31755461456778433,0,1,0.10084093323329407
+Original Phase 1 (Seed 42),4,Processor A (Noisy 5Q Linear),42,0,-0.24755859375,0.376220703125,0,1,0.14154201745986938
+Original Phase 1 (Seed 42),4,Processor B (Noisy 9Q Mesh),42,0,-0.3095703125,0.34521484375,0,1,0.11917328834533691
+Original Phase 1 (Seed 42),5,Classical Baseline (Logistic Regression),42,1,6.5730608820376935,0.9986044370820074,1,1,1.947595858075986e-06
+Original Phase 1 (Seed 42),5,Ideal VQC (Statevector),42,1,0.6248171445102797,0.8124085722551398,1,1,0.035190543763355085
+Original Phase 1 (Seed 42),5,Processor A (Noisy 5Q Linear),42,1,0.45703125,0.728515625,1,1,0.07370376586914062
+Original Phase 1 (Seed 42),5,Processor B (Noisy 9Q Mesh),42,1,0.525390625,0.7626953125,1,1,0.056313514709472656
+Original Phase 1 (Seed 42),6,Classical Baseline (Logistic Regression),42,1,4.886309889991605,0.99250733521579,1,1,5.6140025568540044e-05
+Original Phase 1 (Seed 42),6,Ideal VQC (Statevector),42,1,0.5055128850051558,0.7527564425025779,1,1,0.06112937672398107
+Original Phase 1 (Seed 42),6,Processor A (Noisy 5Q Linear),42,1,0.36083984375,0.680419921875,1,1,0.1021314263343811
+Original Phase 1 (Seed 42),6,Processor B (Noisy 9Q Mesh),42,1,0.42822265625,0.714111328125,1,1,0.08173233270645142
+Original Phase 1 (Seed 42),7,Classical Baseline (Logistic Regression),42,0,-2.1355479915841253,0.10568945165645403,0,1,0.011170260191441935
+Original Phase 1 (Seed 42),7,Ideal VQC (Statevector),42,0,-0.2513385099565708,0.3743307450217146,0,1,0.1401235066685119
+Original Phase 1 (Seed 42),7,Processor A (Noisy 5Q Linear),42,0,-0.17138671875,0.414306640625,0,1,0.1716499924659729
+Original Phase 1 (Seed 42),7,Processor B (Noisy 9Q Mesh),42,0,-0.22021484375,0.389892578125,0,1,0.15201622247695923
+Original Phase 1 (Seed 42),8,Classical Baseline (Logistic Regression),42,1,3.45748963837819,0.9694537144146668,1,1,0.0009330755630607368
+Original Phase 1 (Seed 42),8,Ideal VQC (Statevector),42,1,0.45860308902831903,0.7293015445141595,1,1,0.07327765380241956
+Original Phase 1 (Seed 42),8,Processor A (Noisy 5Q Linear),42,1,0.333984375,0.6669921875,1,1,0.11089420318603516
+Original Phase 1 (Seed 42),8,Processor B (Noisy 9Q Mesh),42,1,0.3896484375,0.69482421875,1,1,0.09313225746154785
+Original Phase 1 (Seed 42),9,Classical Baseline (Logistic Regression),42,0,-1.131758445645659,0.24383673200049666,0,1,0.05945635187268203
+Original Phase 1 (Seed 42),9,Ideal VQC (Statevector),42,0,-0.15409421555034625,0.4229528922248269,0,1,0.17888914904134604
+Original Phase 1 (Seed 42),9,Processor A (Noisy 5Q Linear),42,0,-0.11376953125,0.443115234375,0,1,0.19635111093521118
+Original Phase 1 (Seed 42),9,Processor B (Noisy 9Q Mesh),42,0,-0.1328125,0.43359375,0,1,0.1880035400390625
+Original Phase 1 (Seed 42),10,Classical Baseline (Logistic Regression),42,1,-2.070615797436171,0.11198578596595862,0,0,0.7885692443264962
+Original Phase 1 (Seed 42),10,Ideal VQC (Statevector),42,1,-0.3054308308394662,0.3472845845802669,0,0,0.4260374135265548
+Original Phase 1 (Seed 42),10,Processor A (Noisy 5Q Linear),42,1,-0.20458984375,0.397705078125,0,0,0.36275917291641235
+Original Phase 1 (Seed 42),10,Processor B (Noisy 9Q Mesh),42,1,-0.2509765625,0.37451171875,0,0,0.3912355899810791
+Original Phase 1 (Seed 42),11,Classical Baseline (Logistic Regression),42,1,-0.2158407802396421,0.44624832162951417,0,0,0.30664092129813003
+Original Phase 1 (Seed 42),11,Ideal VQC (Statevector),42,1,-0.04387629590987324,0.47806185204506335,0,0,0.2724194302906293
+Original Phase 1 (Seed 42),11,Processor A (Noisy 5Q Linear),42,1,-0.02783203125,0.486083984375,0,0,0.26410967111587524
+Original Phase 1 (Seed 42),11,Processor B (Noisy 9Q Mesh),42,1,-0.029296875,0.4853515625,0,0,0.2648630142211914
+Original Phase 1 (Seed 42),12,Classical Baseline (Logistic Regression),42,0,-1.7759072225899404,0.14480924526342076,0,1,0.02096971751376155
+Original Phase 1 (Seed 42),12,Ideal VQC (Statevector),42,0,-0.25475289840776694,0.37262355079611653,0,1,0.13884831060790603
+Original Phase 1 (Seed 42),12,Processor A (Noisy 5Q Linear),42,0,-0.18505859375,0.407470703125,0,1,0.16603237390518188
+Original Phase 1 (Seed 42),12,Processor B (Noisy 9Q Mesh),42,0,-0.22607421875,0.386962890625,0,1,0.1497402787208557
+Original Phase 1 (Seed 42),13,Classical Baseline (Logistic Regression),42,0,-5.856775997556819,0.002852292091826547,0,1,8.13557017709626e-06
+Original Phase 1 (Seed 42),13,Ideal VQC (Statevector),42,0,-0.4584885335104778,0.2707557332447611,0,1,0.07330866708490823
+Original Phase 1 (Seed 42),13,Processor A (Noisy 5Q Linear),42,0,-0.31982421875,0.340087890625,0,1,0.11565977334976196
+Original Phase 1 (Seed 42),13,Processor B (Noisy 9Q Mesh),42,0,-0.37646484375,0.311767578125,0,1,0.09719902276992798
+Original Phase 1 (Seed 42),14,Classical Baseline (Logistic Regression),42,0,-5.1400349975703135,0.005823374385579426,0,1,3.3911689234622555e-05
+Original Phase 1 (Seed 42),14,Ideal VQC (Statevector),42,0,-0.6162623069545083,0.19186884652274583,0,1,0.03681365426596899
+Original Phase 1 (Seed 42),14,Processor A (Noisy 5Q Linear),42,0,-0.42919921875,0.285400390625,0,1,0.08145338296890259
+Original Phase 1 (Seed 42),14,Processor B (Noisy 9Q Mesh),42,0,-0.5126953125,0.24365234375,0,1,0.059366464614868164
+Original Phase 1 (Seed 42),15,Classical Baseline (Logistic Regression),42,0,-0.9635833803351341,0.2761613163662985,0,1,0.0762650726571668
+Original Phase 1 (Seed 42),15,Ideal VQC (Statevector),42,0,-0.20420388217705182,0.3978980589114741,0,1,0.15832286528551892
+Original Phase 1 (Seed 42),15,Processor A (Noisy 5Q Linear),42,0,-0.13427734375,0.432861328125,0,1,0.18736892938613892
+Original Phase 1 (Seed 42),15,Processor B (Noisy 9Q Mesh),42,0,-0.17919921875,0.410400390625,0,1,0.1684284806251526
+Original Phase 1 (Seed 42),16,Classical Baseline (Logistic Regression),42,1,1.3087665143542546,0.7873066758944327,1,1,0.045238450119075894
+Original Phase 1 (Seed 42),16,Ideal VQC (Statevector),42,1,0.08451140642216867,0.5422557032110843,1,1,0.20952984124277896
+Original Phase 1 (Seed 42),16,Processor A (Noisy 5Q Linear),42,1,0.076171875,0.5380859375,1,1,0.2133646011352539
+Original Phase 1 (Seed 42),16,Processor B (Noisy 9Q Mesh),42,1,0.09228515625,0.546142578125,1,1,0.20598655939102173
+Original Phase 1 (Seed 42),17,Classical Baseline (Logistic Regression),42,0,-1.3301870325218437,0.209128429523853,0,1,0.04373470003511315
+Original Phase 1 (Seed 42),17,Ideal VQC (Statevector),42,0,-0.31175200978210565,0.3441239951089472,0,1,0.11842132400974271
+Original Phase 1 (Seed 42),17,Processor A (Noisy 5Q Linear),42,0,-0.17578125,0.412109375,0,1,0.16983413696289062
+Original Phase 1 (Seed 42),17,Processor B (Noisy 9Q Mesh),42,0,-0.22998046875,0.385009765625,0,1,0.14823251962661743
+Original Phase 1 (Seed 42),18,Classical Baseline (Logistic Regression),42,0,-2.2493073518121545,0.0954092280560707,0,1,0.00910292079825531
+Original Phase 1 (Seed 42),18,Ideal VQC (Statevector),42,0,-0.25206526496852233,0.37396736751573884,0,1,0.13985159196665167
+Original Phase 1 (Seed 42),18,Processor A (Noisy 5Q Linear),42,0,-0.1884765625,0.40576171875,0,1,0.1646425724029541
+Original Phase 1 (Seed 42),18,Processor B (Noisy 9Q Mesh),42,0,-0.21923828125,0.390380859375,0,1,0.15239721536636353
+Original Phase 1 (Seed 42),19,Classical Baseline (Logistic Regression),42,0,-4.152366120062223,0.01548364629287076,0,1,0.00023974330252273044
+Original Phase 1 (Seed 42),19,Ideal VQC (Statevector),42,0,-0.029060393273428492,0.48546980336328577,0,1,0.23568092997758736
+Original Phase 1 (Seed 42),19,Processor A (Noisy 5Q Linear),42,0,-0.0107421875,0.49462890625,0,1,0.2446577548980713
+Original Phase 1 (Seed 42),19,Processor B (Noisy 9Q Mesh),42,0,-0.009765625,0.4951171875,0,1,0.24514102935791016
+Original Phase 1 (Seed 42),20,Classical Baseline (Logistic Regression),42,1,7.897303746307055,0.9996283936347016,1,1,1.3809129073030792e-07
+Original Phase 1 (Seed 42),20,Ideal VQC (Statevector),42,1,0.27885718271943644,0.6394285913597182,1,1,0.1300117407288371
+Original Phase 1 (Seed 42),20,Processor A (Noisy 5Q Linear),42,1,0.2001953125,0.60009765625,1,1,0.15992188453674316
+Original Phase 1 (Seed 42),20,Processor B (Noisy 9Q Mesh),42,1,0.2236328125,0.61181640625,1,1,0.15068650245666504
+Original Phase 1 (Seed 42),21,Classical Baseline (Logistic Regression),42,0,-1.5286789120237358,0.17818705895508272,0,1,0.031750627979062127
+Original Phase 1 (Seed 42),21,Ideal VQC (Statevector),42,0,-0.19466113646131566,0.40266943176934217,0,1,0.1621426712814449
+Original Phase 1 (Seed 42),21,Processor A (Noisy 5Q Linear),42,0,-0.15625,0.421875,0,1,0.177978515625
+Original Phase 1 (Seed 42),21,Processor B (Noisy 9Q Mesh),42,0,-0.162109375,0.4189453125,0,1,0.17551517486572266
+Original Phase 1 (Seed 42),22,Classical Baseline (Logistic Regression),42,0,-1.0141234637802243,0.2661736580330795,0,1,0.07084841623071075
+Original Phase 1 (Seed 42),22,Ideal VQC (Statevector),42,0,-0.16497146378086358,0.4175142681095682,0,1,0.1743181640750684
+Original Phase 1 (Seed 42),22,Processor A (Noisy 5Q Linear),42,0,-0.12744140625,0.436279296875,0,1,0.19033962488174438
+Original Phase 1 (Seed 42),22,Processor B (Noisy 9Q Mesh),42,0,-0.15234375,0.423828125,0,1,0.17963027954101562
+Original Phase 1 (Seed 42),23,Classical Baseline (Logistic Regression),42,0,-1.2397993046798168,0.22447092158826615,0,1,0.05038719463868553
+Original Phase 1 (Seed 42),23,Ideal VQC (Statevector),42,0,-0.204175486405509,0.3979122567972455,0,1,0.15833416410947707
+Original Phase 1 (Seed 42),23,Processor A (Noisy 5Q Linear),42,0,-0.11376953125,0.443115234375,0,1,0.19635111093521118
+Original Phase 1 (Seed 42),23,Processor B (Noisy 9Q Mesh),42,0,-0.12646484375,0.436767578125,0,1,0.19076591730117798
+Original Phase 1 (Seed 42),24,Classical Baseline (Logistic Regression),42,0,-1.5167186198720968,0.17994522764309864,0,1,0.03238028495152659
+Original Phase 1 (Seed 42),24,Ideal VQC (Statevector),42,0,-0.1465722851658336,0.42671385741708323,0,1,0.18208471611176683
+Original Phase 1 (Seed 42),24,Processor A (Noisy 5Q Linear),42,0,-0.11083984375,0.444580078125,0,1,0.1976514458656311
+Original Phase 1 (Seed 42),24,Processor B (Noisy 9Q Mesh),42,0,-0.14306640625,0.428466796875,0,1,0.1835837960243225
+Original Phase 1 (Seed 42),25,Classical Baseline (Logistic Regression),42,1,2.0821291915721396,0.8891540584777058,1,1,0.012286822751963867
+Original Phase 1 (Seed 42),25,Ideal VQC (Statevector),42,1,0.30700611953063317,0.6535030597653166,1,1,0.12006012959199773
+Original Phase 1 (Seed 42),25,Processor A (Noisy 5Q Linear),42,1,0.21142578125,0.605712890625,1,1,0.1554623246192932
+Original Phase 1 (Seed 42),25,Processor B (Noisy 9Q Mesh),42,1,0.26708984375,0.633544921875,1,1,0.13428932428359985
+Original Phase 1 (Seed 42),26,Classical Baseline (Logistic Regression),42,1,4.286845623395162,0.9864382262564337,1,1,0.0001839217070716833
+Original Phase 1 (Seed 42),26,Ideal VQC (Statevector),42,1,0.5328907942560743,0.7664453971280372,1,1,0.05454775252268027
+Original Phase 1 (Seed 42),26,Processor A (Noisy 5Q Linear),42,1,0.38818359375,0.694091796875,1,1,0.09357982873916626
+Original Phase 1 (Seed 42),26,Processor B (Noisy 9Q Mesh),42,1,0.45947265625,0.729736328125,1,1,0.07304245233535767
+Original Phase 1 (Seed 42),27,Classical Baseline (Logistic Regression),42,0,-1.444540925060311,0.19084314506703898,0,1,0.036421106019078886
+Original Phase 1 (Seed 42),27,Ideal VQC (Statevector),42,0,-0.27710595038561536,0.3614470248071923,0,1,0.1306439517419711
+Original Phase 1 (Seed 42),27,Processor A (Noisy 5Q Linear),42,0,-0.18408203125,0.407958984375,0,1,0.1664305329322815
+Original Phase 1 (Seed 42),27,Processor B (Noisy 9Q Mesh),42,0,-0.22998046875,0.385009765625,0,1,0.14823251962661743
+Original Phase 1 (Seed 42),28,Classical Baseline (Logistic Regression),42,1,9.68201084769782,0.9999376079841353,1,1,3.892763643656626e-09
+Original Phase 1 (Seed 42),28,Ideal VQC (Statevector),42,1,0.640864155779626,0.820432077889813,1,1,0.032244638650970193
+Original Phase 1 (Seed 42),28,Processor A (Noisy 5Q Linear),42,1,0.44775390625,0.723876953125,1,1,0.07624393701553345
+Original Phase 1 (Seed 42),28,Processor B (Noisy 9Q Mesh),42,1,0.529296875,0.7646484375,1,1,0.055390357971191406
+Original Phase 1 (Seed 42),29,Classical Baseline (Logistic Regression),42,0,-5.996961752504087,0.002480128361492072,0,1,6.1510366894773484e-06
+Original Phase 1 (Seed 42),29,Ideal VQC (Statevector),42,0,-0.5672034453240198,0.2163982773379901,0,1,0.046828214434849684
+Original Phase 1 (Seed 42),29,Processor A (Noisy 5Q Linear),42,0,-0.375,0.3125,0,1,0.09765625
+Original Phase 1 (Seed 42),29,Processor B (Noisy 9Q Mesh),42,0,-0.455078125,0.2724609375,0,1,0.0742349624633789
+Original Phase 1 (Seed 42),30,Classical Baseline (Logistic Regression),42,0,-6.0022661786769715,0.002467039903301164,0,1,6.086285884480217e-06
+Original Phase 1 (Seed 42),30,Ideal VQC (Statevector),42,0,-0.3783657121460077,0.3108171439269961,0,1,0.09660729695893501
+Original Phase 1 (Seed 42),30,Processor A (Noisy 5Q Linear),42,0,-0.2744140625,0.36279296875,0,1,0.13161873817443848
+Original Phase 1 (Seed 42),30,Processor B (Noisy 9Q Mesh),42,0,-0.328125,0.3359375,0,1,0.11285400390625
+Original Phase 1 (Seed 42),31,Classical Baseline (Logistic Regression),42,0,-1.0379716757713506,0.26154155000504203,0,1,0.0684039823790399
+Original Phase 1 (Seed 42),31,Ideal VQC (Statevector),42,0,-0.17429108322450543,0.41285445838774726,0,1,0.17044880381064012
+Original Phase 1 (Seed 42),31,Processor A (Noisy 5Q Linear),42,0,-0.10546875,0.447265625,0,1,0.20004653930664062
+Original Phase 1 (Seed 42),31,Processor B (Noisy 9Q Mesh),42,0,-0.12744140625,0.436279296875,0,1,0.19033962488174438
+Original Phase 1 (Seed 42),32,Classical Baseline (Logistic Regression),42,1,1.4169441780188359,0.8048589128961445,1,1,0.038080043876074506
+Original Phase 1 (Seed 42),32,Ideal VQC (Statevector),42,1,0.19335687741009028,0.5966784387050451,1,1,0.16266828180540005
+Original Phase 1 (Seed 42),32,Processor A (Noisy 5Q Linear),42,1,0.1279296875,0.56396484375,1,1,0.19012665748596191
+Original Phase 1 (Seed 42),32,Processor B (Noisy 9Q Mesh),42,1,0.1533203125,0.57666015625,1,1,0.17921662330627441
+Original Phase 1 (Seed 42),33,Classical Baseline (Logistic Regression),42,1,6.4685076234503045,0.9984508640584364,1,1,2.3998221654440923e-06
+Original Phase 1 (Seed 42),33,Ideal VQC (Statevector),42,1,0.2972486529303301,0.648624326465165,1,1,0.12346486395205895
+Original Phase 1 (Seed 42),33,Processor A (Noisy 5Q Linear),42,1,0.20751953125,0.603759765625,1,1,0.15700632333755493
+Original Phase 1 (Seed 42),33,Processor B (Noisy 9Q Mesh),42,1,0.2412109375,0.62060546875,1,1,0.14394021034240723
+Original Phase 1 (Seed 42),34,Classical Baseline (Logistic Regression),42,1,9.44730791739229,0.9999211045355036,1,1,6.224494318095382e-09
+Original Phase 1 (Seed 42),34,Ideal VQC (Statevector),42,1,0.15095501506609732,0.5754775075330487,1,1,0.18021934661035272
+Original Phase 1 (Seed 42),34,Processor A (Noisy 5Q Linear),42,1,0.09130859375,0.545654296875,1,1,0.20643001794815063
+Original Phase 1 (Seed 42),34,Processor B (Noisy 9Q Mesh),42,1,0.10693359375,0.553466796875,1,1,0.1993919014930725
+Original Phase 1 (Seed 42),35,Classical Baseline (Logistic Regression),42,0,-1.4935628641288317,0.1833875631292358,0,1,0.03363099831047944
+Original Phase 1 (Seed 42),35,Ideal VQC (Statevector),42,0,-0.1823203441958678,0.4088398279020661,0,1,0.167150004878991
+Original Phase 1 (Seed 42),35,Processor A (Noisy 5Q Linear),42,0,-0.12890625,0.435546875,0,1,0.18970108032226562
+Original Phase 1 (Seed 42),35,Processor B (Noisy 9Q Mesh),42,0,-0.15771484375,0.421142578125,0,1,0.17736107110977173
+Original Phase 1 (Seed 42),36,Classical Baseline (Logistic Regression),42,1,-4.55905071453111,0.010363468942956033,0,0,0.9793804636026195
+Original Phase 1 (Seed 42),36,Ideal VQC (Statevector),42,1,-0.43731002687451714,0.28134498656274143,0,0,0.5164650283385063
+Original Phase 1 (Seed 42),36,Processor A (Noisy 5Q Linear),42,1,-0.294921875,0.3525390625,0,0,0.4192056655883789
+Original Phase 1 (Seed 42),36,Processor B (Noisy 9Q Mesh),42,1,-0.3515625,0.32421875,0,0,0.4566802978515625
+Original Phase 1 (Seed 42),37,Classical Baseline (Logistic Regression),42,0,-1.0545536515941083,0.2583516339063189,0,1,0.06674556674206461
+Original Phase 1 (Seed 42),37,Ideal VQC (Statevector),42,0,-0.26176644684042194,0.36911677657978903,0,1,0.1362471947526539
+Original Phase 1 (Seed 42),37,Processor A (Noisy 5Q Linear),42,0,-0.1943359375,0.40283203125,0,1,0.16227364540100098
+Original Phase 1 (Seed 42),37,Processor B (Noisy 9Q Mesh),42,0,-0.2314453125,0.38427734375,0,1,0.14766907691955566
+Original Phase 1 (Seed 42),38,Classical Baseline (Logistic Regression),42,1,3.7845900756793367,0.9777864770700778,1,1,0.0004934406009581784
+Original Phase 1 (Seed 42),38,Ideal VQC (Statevector),42,1,0.2400566126787098,0.6200283063393549,1,1,0.14437848798333913
+Original Phase 1 (Seed 42),38,Processor A (Noisy 5Q Linear),42,1,0.1865234375,0.59326171875,1,1,0.1654360294342041
+Original Phase 1 (Seed 42),38,Processor B (Noisy 9Q Mesh),42,1,0.220703125,0.6103515625,1,1,0.1518259048461914
+Original Phase 1 (Seed 42),39,Classical Baseline (Logistic Regression),42,1,2.3394927177277713,0.9120954211170008,1,1,0.007727214988597427
+Original Phase 1 (Seed 42),39,Ideal VQC (Statevector),42,1,0.12325491909059708,0.5616274595452986,1,1,0.19217048422470884
+Original Phase 1 (Seed 42),39,Processor A (Noisy 5Q Linear),42,1,0.078125,0.5390625,1,1,0.21246337890625
+Original Phase 1 (Seed 42),39,Processor B (Noisy 9Q Mesh),42,1,0.0986328125,0.54931640625,1,1,0.20311570167541504
+In-Distribution Independent Split (Seed 1234),0,Classical Baseline (Logistic Regression),42,0,-1.5728108310638447,0.1718160546547552,0,1,0.029520756637125823
+In-Distribution Independent Split (Seed 1234),0,Ideal VQC (Statevector),42,0,-0.17247023569804784,0.41376488215097607,0,1,0.1712013777014111
+In-Distribution Independent Split (Seed 1234),0,Processor A (Noisy 5Q Linear),42,0,-0.154296875,0.4228515625,0,1,0.1788034439086914
+In-Distribution Independent Split (Seed 1234),0,Processor B (Noisy 9Q Mesh),42,0,-0.16064453125,0.419677734375,0,1,0.17612940073013306
+In-Distribution Independent Split (Seed 1234),1,Classical Baseline (Logistic Regression),42,0,-1.218392770692812,0.22821941674839974,0,1,0.05208410218097976
+In-Distribution Independent Split (Seed 1234),1,Ideal VQC (Statevector),42,0,-0.16086008581861663,0.41956995709069167,0,1,0.17603894889308486
+In-Distribution Independent Split (Seed 1234),1,Processor A (Noisy 5Q Linear),42,0,-0.12353515625,0.438232421875,0,1,0.19204765558242798
+In-Distribution Independent Split (Seed 1234),1,Processor B (Noisy 9Q Mesh),42,0,-0.146484375,0.4267578125,0,1,0.18212223052978516
+In-Distribution Independent Split (Seed 1234),2,Classical Baseline (Logistic Regression),42,1,6.334156933232034,0.9982285024236,1,1,3.1382036631912496e-06
+In-Distribution Independent Split (Seed 1234),2,Ideal VQC (Statevector),42,1,0.4774737840144485,0.7387368920072243,1,1,0.0682584115980448
+In-Distribution Independent Split (Seed 1234),2,Processor A (Noisy 5Q Linear),42,1,0.3369140625,0.66845703125,1,1,0.10992074012756348
+In-Distribution Independent Split (Seed 1234),2,Processor B (Noisy 9Q Mesh),42,1,0.3935546875,0.69677734375,1,1,0.09194397926330566
+In-Distribution Independent Split (Seed 1234),3,Classical Baseline (Logistic Regression),42,0,-6.302738594932216,0.0018279352954475977,0,1,3.3413474443430965e-06
+In-Distribution Independent Split (Seed 1234),3,Ideal VQC (Statevector),42,0,-0.44762539725879097,0.27618730137060454,0,1,0.07627942543837714
+In-Distribution Independent Split (Seed 1234),3,Processor A (Noisy 5Q Linear),42,0,-0.32470703125,0.337646484375,0,1,0.11400514841079712
+In-Distribution Independent Split (Seed 1234),3,Processor B (Noisy 9Q Mesh),42,0,-0.3759765625,0.31201171875,0,1,0.0973513126373291
+In-Distribution Independent Split (Seed 1234),4,Classical Baseline (Logistic Regression),42,0,-2.0922629367046484,0.1098511002897539,0,1,0.012067264234869568
+In-Distribution Independent Split (Seed 1234),4,Ideal VQC (Statevector),42,0,-0.24616223401999315,0.3769188829900034,0,1,0.1420678443544319
+In-Distribution Independent Split (Seed 1234),4,Processor A (Noisy 5Q Linear),42,0,-0.1435546875,0.42822265625,0,1,0.18337464332580566
+In-Distribution Independent Split (Seed 1234),4,Processor B (Noisy 9Q Mesh),42,0,-0.17333984375,0.413330078125,0,1,0.1708417534828186
+In-Distribution Independent Split (Seed 1234),5,Classical Baseline (Logistic Regression),42,1,2.9319794246616055,0.9494048419283923,1,1,0.0025598700202909747
+In-Distribution Independent Split (Seed 1234),5,Ideal VQC (Statevector),42,1,0.38105946706680205,0.6905297335334011,1,1,0.09577184582690774
+In-Distribution Independent Split (Seed 1234),5,Processor A (Noisy 5Q Linear),42,1,0.2841796875,0.64208984375,1,1,0.12809967994689941
+In-Distribution Independent Split (Seed 1234),5,Processor B (Noisy 9Q Mesh),42,1,0.326171875,0.6630859375,1,1,0.1135110855102539
+In-Distribution Independent Split (Seed 1234),6,Classical Baseline (Logistic Regression),42,0,-2.9621990530699245,0.04916310696419237,0,1,0.00241701108637262
+In-Distribution Independent Split (Seed 1234),6,Ideal VQC (Statevector),42,0,-0.40371901711363023,0.2981404914431849,0,1,0.0888877526379838
+In-Distribution Independent Split (Seed 1234),6,Processor A (Noisy 5Q Linear),42,0,-0.2802734375,0.35986328125,0,1,0.1295015811920166
+In-Distribution Independent Split (Seed 1234),6,Processor B (Noisy 9Q Mesh),42,0,-0.35302734375,0.323486328125,0,1,0.10464340448379517
+In-Distribution Independent Split (Seed 1234),7,Classical Baseline (Logistic Regression),42,0,-1.3378069415428129,0.20787093756091324,0,1,0.04321032668245309
+In-Distribution Independent Split (Seed 1234),7,Ideal VQC (Statevector),42,0,-0.1839127615948151,0.40804361920259247,0,1,0.1664995951719503
+In-Distribution Independent Split (Seed 1234),7,Processor A (Noisy 5Q Linear),42,0,-0.11572265625,0.442138671875,0,1,0.19548660516738892
+In-Distribution Independent Split (Seed 1234),7,Processor B (Noisy 9Q Mesh),42,0,-0.1513671875,0.42431640625,0,1,0.18004441261291504
+In-Distribution Independent Split (Seed 1234),8,Classical Baseline (Logistic Regression),42,0,-1.726229853769335,0.15107045831301721,0,1,0.02282228337490507
+In-Distribution Independent Split (Seed 1234),8,Ideal VQC (Statevector),42,0,-0.22229060901533185,0.3888546954923341,0,1,0.15120797420643586
+In-Distribution Independent Split (Seed 1234),8,Processor A (Noisy 5Q Linear),42,0,-0.1796875,0.41015625,0,1,0.1682281494140625
+In-Distribution Independent Split (Seed 1234),8,Processor B (Noisy 9Q Mesh),42,0,-0.19287109375,0.403564453125,0,1,0.16286426782608032
+In-Distribution Independent Split (Seed 1234),9,Classical Baseline (Logistic Regression),42,1,3.6598605757652756,0.9749096276376537,1,1,0.0006295267852811934
+In-Distribution Independent Split (Seed 1234),9,Ideal VQC (Statevector),42,1,0.3991226847217002,0.6995613423608501,1,1,0.09026338700401432
+In-Distribution Independent Split (Seed 1234),9,Processor A (Noisy 5Q Linear),42,1,0.2470703125,0.62353515625,1,1,0.14172577857971191
+In-Distribution Independent Split (Seed 1234),9,Processor B (Noisy 9Q Mesh),42,1,0.2978515625,0.64892578125,1,1,0.12325310707092285
+In-Distribution Independent Split (Seed 1234),10,Classical Baseline (Logistic Regression),42,1,5.656768500377855,0.9965183752087838,1,1,1.2121711186811002e-05
+In-Distribution Independent Split (Seed 1234),10,Ideal VQC (Statevector),42,1,0.386728399386046,0.693364199693023,1,1,0.09402551402990028
+In-Distribution Independent Split (Seed 1234),10,Processor A (Noisy 5Q Linear),42,1,0.26708984375,0.633544921875,1,1,0.13428932428359985
+In-Distribution Independent Split (Seed 1234),10,Processor B (Noisy 9Q Mesh),42,1,0.32861328125,0.664306640625,1,1,0.1126900315284729
+In-Distribution Independent Split (Seed 1234),11,Classical Baseline (Logistic Regression),42,1,-6.433045830249573,0.0016049669948248195,0,0,0.9967926419294049
+In-Distribution Independent Split (Seed 1234),11,Ideal VQC (Statevector),42,1,-0.42505695875195615,0.2874715206240219,0,0,0.5076968339218436
+In-Distribution Independent Split (Seed 1234),11,Processor A (Noisy 5Q Linear),42,1,-0.28564453125,0.357177734375,0,0,0.41322046518325806
+In-Distribution Independent Split (Seed 1234),11,Processor B (Noisy 9Q Mesh),42,1,-0.33984375,0.330078125,0,0,0.4487953186035156
+In-Distribution Independent Split (Seed 1234),12,Classical Baseline (Logistic Regression),42,0,-4.289472137496264,0.013526681481890896,0,1,0.00018297111191253009
+In-Distribution Independent Split (Seed 1234),12,Ideal VQC (Statevector),42,0,-0.47663098770351864,0.2616845061482407,0,1,0.06847878075804861
+In-Distribution Independent Split (Seed 1234),12,Processor A (Noisy 5Q Linear),42,0,-0.345703125,0.3271484375,0,1,0.1070261001586914
+In-Distribution Independent Split (Seed 1234),12,Processor B (Noisy 9Q Mesh),42,0,-0.40283203125,0.298583984375,0,1,0.08915239572525024
+In-Distribution Independent Split (Seed 1234),13,Classical Baseline (Logistic Regression),42,1,4.985435446835391,0.9932096241277821,1,1,4.610920448599858e-05
+In-Distribution Independent Split (Seed 1234),13,Ideal VQC (Statevector),42,1,0.5081928373759607,0.7540964186879804,1,1,0.06046857130207704
+In-Distribution Independent Split (Seed 1234),13,Processor A (Noisy 5Q Linear),42,1,0.37841796875,0.689208984375,1,1,0.096591055393219
+In-Distribution Independent Split (Seed 1234),13,Processor B (Noisy 9Q Mesh),42,1,0.4453125,0.72265625,1,1,0.0769195556640625
+In-Distribution Independent Split (Seed 1234),14,Classical Baseline (Logistic Regression),42,0,-1.1868373509550338,0.23382505014470192,0,1,0.05467415407517237
+In-Distribution Independent Split (Seed 1234),14,Ideal VQC (Statevector),42,0,-0.3047293017681326,0.3476353491159337,0,1,0.1208503359549571
+In-Distribution Independent Split (Seed 1234),14,Processor A (Noisy 5Q Linear),42,0,-0.21728515625,0.391357421875,0,1,0.15316063165664673
+In-Distribution Independent Split (Seed 1234),14,Processor B (Noisy 9Q Mesh),42,0,-0.25390625,0.373046875,0,1,0.13916397094726562
+In-Distribution Independent Split (Seed 1234),15,Classical Baseline (Logistic Regression),42,0,-3.1771228375864435,0.04003576543624502,0,1,0.0016028625140660313
+In-Distribution Independent Split (Seed 1234),15,Ideal VQC (Statevector),42,0,-0.4069576428447356,0.29652117857763216,0,1,0.08792480934506802
+In-Distribution Independent Split (Seed 1234),15,Processor A (Noisy 5Q Linear),42,0,-0.275390625,0.3623046875,0,1,0.13126468658447266
+In-Distribution Independent Split (Seed 1234),15,Processor B (Noisy 9Q Mesh),42,0,-0.3330078125,0.33349609375,0,1,0.11121964454650879
+In-Distribution Independent Split (Seed 1234),16,Classical Baseline (Logistic Regression),42,1,7.230268842142842,0.9992761981609798,1,1,5.238891021690388e-07
+In-Distribution Independent Split (Seed 1234),16,Ideal VQC (Statevector),42,1,0.527522959977757,0.7637614799888786,1,1,0.055808638337045025
+In-Distribution Independent Split (Seed 1234),16,Processor A (Noisy 5Q Linear),42,1,0.384765625,0.6923828125,1,1,0.09462833404541016
+In-Distribution Independent Split (Seed 1234),16,Processor B (Noisy 9Q Mesh),42,1,0.43701171875,0.718505859375,1,1,0.07923895120620728
+In-Distribution Independent Split (Seed 1234),17,Classical Baseline (Logistic Regression),42,0,-1.7603472923858672,0.1467468492186435,0,1,0.02153463775559929
+In-Distribution Independent Split (Seed 1234),17,Ideal VQC (Statevector),42,0,-0.2948727821552788,0.3525636089223606,0,1,0.12430109833635923
+In-Distribution Independent Split (Seed 1234),17,Processor A (Noisy 5Q Linear),42,0,-0.18017578125,0.409912109375,0,1,0.16802793741226196
+In-Distribution Independent Split (Seed 1234),17,Processor B (Noisy 9Q Mesh),42,0,-0.22802734375,0.385986328125,0,1,0.14898544549942017
+In-Distribution Independent Split (Seed 1234),18,Classical Baseline (Logistic Regression),42,0,-1.5183597586945206,0.17970318027756751,0,1,0.03229323300187193
+In-Distribution Independent Split (Seed 1234),18,Ideal VQC (Statevector),42,0,-0.3054393704408869,0.34728031477955656,0,1,0.1206036170333879
+In-Distribution Independent Split (Seed 1234),18,Processor A (Noisy 5Q Linear),42,0,-0.21435546875,0.392822265625,0,1,0.15430933237075806
+In-Distribution Independent Split (Seed 1234),18,Processor B (Noisy 9Q Mesh),42,0,-0.27880859375,0.360595703125,0,1,0.13002926111221313
+In-Distribution Independent Split (Seed 1234),19,Classical Baseline (Logistic Regression),42,0,-1.5167186198720968,0.17994522764309864,0,1,0.03238028495152659
+In-Distribution Independent Split (Seed 1234),19,Ideal VQC (Statevector),42,0,-0.1465722851658336,0.42671385741708323,0,1,0.18208471611176683
+In-Distribution Independent Split (Seed 1234),19,Processor A (Noisy 5Q Linear),42,0,-0.11669921875,0.441650390625,0,1,0.1950550675392151
+In-Distribution Independent Split (Seed 1234),19,Processor B (Noisy 9Q Mesh),42,0,-0.13330078125,0.433349609375,0,1,0.1877918839454651
+In-Distribution Independent Split (Seed 1234),20,Classical Baseline (Logistic Regression),42,0,-1.0545536515941083,0.2583516339063189,0,1,0.06674556674206461
+In-Distribution Independent Split (Seed 1234),20,Ideal VQC (Statevector),42,0,-0.26176644684042194,0.36911677657978903,0,1,0.1362471947526539
+In-Distribution Independent Split (Seed 1234),20,Processor A (Noisy 5Q Linear),42,0,-0.15380859375,0.423095703125,0,1,0.17900997400283813
+In-Distribution Independent Split (Seed 1234),20,Processor B (Noisy 9Q Mesh),42,0,-0.1904296875,0.40478515625,0,1,0.16385102272033691
+In-Distribution Independent Split (Seed 1234),21,Classical Baseline (Logistic Regression),42,1,2.705237516421466,0.9373349913144089,1,1,0.003926903313565208
+In-Distribution Independent Split (Seed 1234),21,Ideal VQC (Statevector),42,1,0.30140380092287394,0.6507019004614369,1,1,0.1220091623412519
+In-Distribution Independent Split (Seed 1234),21,Processor A (Noisy 5Q Linear),42,1,0.1865234375,0.59326171875,1,1,0.1654360294342041
+In-Distribution Independent Split (Seed 1234),21,Processor B (Noisy 9Q Mesh),42,1,0.23779296875,0.618896484375,1,1,0.14523988962173462
+In-Distribution Independent Split (Seed 1234),22,Classical Baseline (Logistic Regression),42,1,2.573142214506363,0.9291129280000672,1,1,0.005024976976723661
+In-Distribution Independent Split (Seed 1234),22,Ideal VQC (Statevector),42,1,0.2871919964776311,0.6435959982388155,1,1,0.1270238124713864
+In-Distribution Independent Split (Seed 1234),22,Processor A (Noisy 5Q Linear),42,1,0.19677734375,0.598388671875,1,1,0.16129165887832642
+In-Distribution Independent Split (Seed 1234),22,Processor B (Noisy 9Q Mesh),42,1,0.224609375,0.6123046875,1,1,0.15030765533447266
+In-Distribution Independent Split (Seed 1234),23,Classical Baseline (Logistic Regression),42,1,1.1499762478705202,0.7595065784989166,1,1,0.05783708578529778
+In-Distribution Independent Split (Seed 1234),23,Ideal VQC (Statevector),42,1,0.10457282571513317,0.5522864128575666,1,1,0.20044745611194528
+In-Distribution Independent Split (Seed 1234),23,Processor A (Noisy 5Q Linear),42,1,0.10546875,0.552734375,1,1,0.20004653930664062
+In-Distribution Independent Split (Seed 1234),23,Processor B (Noisy 9Q Mesh),42,1,0.119140625,0.5595703125,1,1,0.19397830963134766
+In-Distribution Independent Split (Seed 1234),24,Classical Baseline (Logistic Regression),42,1,5.686444451001489,0.9966198336105787,1,1,1.1425524820173365e-05
+In-Distribution Independent Split (Seed 1234),24,Ideal VQC (Statevector),42,1,0.5446551013213083,0.7723275506606542,1,1,0.05183474418817699
+In-Distribution Independent Split (Seed 1234),24,Processor A (Noisy 5Q Linear),42,1,0.3623046875,0.68115234375,1,1,0.10166382789611816
+In-Distribution Independent Split (Seed 1234),24,Processor B (Noisy 9Q Mesh),42,1,0.43603515625,0.718017578125,1,1,0.07951408624649048
+In-Distribution Independent Split (Seed 1234),25,Classical Baseline (Logistic Regression),42,1,3.4226914135196718,0.9684062209572103,1,1,0.000998166874204618
+In-Distribution Independent Split (Seed 1234),25,Ideal VQC (Statevector),42,1,0.40451172913482786,0.702255864567414,1,1,0.08865157018449814
+In-Distribution Independent Split (Seed 1234),25,Processor A (Noisy 5Q Linear),42,1,0.26806640625,0.634033203125,1,1,0.1339316964149475
+In-Distribution Independent Split (Seed 1234),25,Processor B (Noisy 9Q Mesh),42,1,0.32421875,0.662109375,1,1,0.11417007446289062
+In-Distribution Independent Split (Seed 1234),26,Classical Baseline (Logistic Regression),42,0,-6.0022661786769715,0.002467039903301164,0,1,6.086285884480217e-06
+In-Distribution Independent Split (Seed 1234),26,Ideal VQC (Statevector),42,0,-0.3783657121460077,0.3108171439269961,0,1,0.09660729695893501
+In-Distribution Independent Split (Seed 1234),26,Processor A (Noisy 5Q Linear),42,0,-0.24951171875,0.375244140625,0,1,0.14080816507339478
+In-Distribution Independent Split (Seed 1234),26,Processor B (Noisy 9Q Mesh),42,0,-0.30517578125,0.347412109375,0,1,0.12069517374038696
+In-Distribution Independent Split (Seed 1234),27,Classical Baseline (Logistic Regression),42,0,-0.47042394345504895,0.3845159067882123,0,1,0.14785248257316116
+In-Distribution Independent Split (Seed 1234),27,Ideal VQC (Statevector),42,0,-0.03879111230080637,0.48060444384959683,0,1,0.23098063144798028
+In-Distribution Independent Split (Seed 1234),27,Processor A (Noisy 5Q Linear),42,0,-0.02587890625,0.487060546875,0,1,0.23722797632217407
+In-Distribution Independent Split (Seed 1234),27,Processor B (Noisy 9Q Mesh),42,0,-0.03271484375,0.483642578125,0,1,0.23391014337539673
+In-Distribution Independent Split (Seed 1234),28,Classical Baseline (Logistic Regression),42,1,9.68201084769782,0.9999376079841353,1,1,3.892763643656626e-09
+In-Distribution Independent Split (Seed 1234),28,Ideal VQC (Statevector),42,1,0.640864155779626,0.820432077889813,1,1,0.032244638650970193
+In-Distribution Independent Split (Seed 1234),28,Processor A (Noisy 5Q Linear),42,1,0.44775390625,0.723876953125,1,1,0.07624393701553345
+In-Distribution Independent Split (Seed 1234),28,Processor B (Noisy 9Q Mesh),42,1,0.529296875,0.7646484375,1,1,0.055390357971191406
+In-Distribution Independent Split (Seed 1234),29,Classical Baseline (Logistic Regression),42,0,-1.1573194211821332,0.23915470145431902,0,1,0.057194971227704464
+In-Distribution Independent Split (Seed 1234),29,Ideal VQC (Statevector),42,0,-0.3098181273320142,0.3450909363339929,0,1,0.11908775433987194
+In-Distribution Independent Split (Seed 1234),29,Processor A (Noisy 5Q Linear),42,0,-0.2216796875,0.38916015625,0,1,0.15144562721252441
+In-Distribution Independent Split (Seed 1234),29,Processor B (Noisy 9Q Mesh),42,0,-0.2666015625,0.36669921875,0,1,0.13446831703186035
+In-Distribution Independent Split (Seed 1234),30,Classical Baseline (Logistic Regression),42,1,3.198878650366875,0.960792057019801,1,1,0.0015372627927385382
+In-Distribution Independent Split (Seed 1234),30,Ideal VQC (Statevector),42,1,0.37322881441103434,0.6866144072055171,1,1,0.09821052977114943
+In-Distribution Independent Split (Seed 1234),30,Processor A (Noisy 5Q Linear),42,1,0.2646484375,0.63232421875,1,1,0.13518548011779785
+In-Distribution Independent Split (Seed 1234),30,Processor B (Noisy 9Q Mesh),42,1,0.3212890625,0.66064453125,1,1,0.11516213417053223
+In-Distribution Independent Split (Seed 1234),31,Classical Baseline (Logistic Regression),42,1,3.9052827319111816,0.980262165636975,1,1,0.00038958210534221084
+In-Distribution Independent Split (Seed 1234),31,Ideal VQC (Statevector),42,1,0.2959912512237688,0.6479956256118844,1,1,0.12390707958836866
+In-Distribution Independent Split (Seed 1234),31,Processor A (Noisy 5Q Linear),42,1,0.19091796875,0.595458984375,1,1,0.1636534333229065
+In-Distribution Independent Split (Seed 1234),31,Processor B (Noisy 9Q Mesh),42,1,0.22802734375,0.614013671875,1,1,0.14898544549942017
+In-Distribution Independent Split (Seed 1234),32,Classical Baseline (Logistic Regression),42,1,9.44730791739229,0.9999211045355036,1,1,6.224494318095382e-09
+In-Distribution Independent Split (Seed 1234),32,Ideal VQC (Statevector),42,1,0.15095501506609732,0.5754775075330487,1,1,0.18021934661035272
+In-Distribution Independent Split (Seed 1234),32,Processor A (Noisy 5Q Linear),42,1,0.12255859375,0.561279296875,1,1,0.19247585535049438
+In-Distribution Independent Split (Seed 1234),32,Processor B (Noisy 9Q Mesh),42,1,0.13427734375,0.567138671875,1,1,0.18736892938613892
+In-Distribution Independent Split (Seed 1234),33,Classical Baseline (Logistic Regression),42,0,-6.5362988715920265,0.001447745635958348,0,1,2.095967426436441e-06
+In-Distribution Independent Split (Seed 1234),33,Ideal VQC (Statevector),42,0,-0.20679698676161506,0.39660150661919247,0,1,0.15729275505261336
+In-Distribution Independent Split (Seed 1234),33,Processor A (Noisy 5Q Linear),42,0,-0.150390625,0.4248046875,0,1,0.18045902252197266
+In-Distribution Independent Split (Seed 1234),33,Processor B (Noisy 9Q Mesh),42,0,-0.169921875,0.4150390625,0,1,0.1722574234008789
+In-Distribution Independent Split (Seed 1234),34,Classical Baseline (Logistic Regression),42,0,-1.2829765335732002,0.21704397769593334,0,1,0.04710808825407281
+In-Distribution Independent Split (Seed 1234),34,Ideal VQC (Statevector),42,0,-0.2553803629682408,0.37230981851587963,0,1,0.13861460096332723
+In-Distribution Independent Split (Seed 1234),34,Processor A (Noisy 5Q Linear),42,0,-0.19775390625,0.401123046875,0,1,0.16089969873428345
+In-Distribution Independent Split (Seed 1234),34,Processor B (Noisy 9Q Mesh),42,0,-0.228515625,0.3857421875,0,1,0.14879703521728516
+In-Distribution Independent Split (Seed 1234),35,Classical Baseline (Logistic Regression),42,1,2.3139527146075243,0.9100260232356236,1,1,0.008095316494796535
+In-Distribution Independent Split (Seed 1234),35,Ideal VQC (Statevector),42,1,0.23042760323361747,0.6152138016168087,1,1,0.14806041846618864
+In-Distribution Independent Split (Seed 1234),35,Processor A (Noisy 5Q Linear),42,1,0.15869140625,0.579345703125,1,1,0.17695003747940063
+In-Distribution Independent Split (Seed 1234),35,Processor B (Noisy 9Q Mesh),42,1,0.1796875,0.58984375,1,1,0.1682281494140625
+In-Distribution Independent Split (Seed 1234),36,Classical Baseline (Logistic Regression),42,0,-1.2397993046798168,0.22447092158826615,0,1,0.05038719463868553
+In-Distribution Independent Split (Seed 1234),36,Ideal VQC (Statevector),42,0,-0.204175486405509,0.3979122567972455,0,1,0.15833416410947707
+In-Distribution Independent Split (Seed 1234),36,Processor A (Noisy 5Q Linear),42,0,-0.13330078125,0.433349609375,0,1,0.1877918839454651
+In-Distribution Independent Split (Seed 1234),36,Processor B (Noisy 9Q Mesh),42,0,-0.17333984375,0.413330078125,0,1,0.1708417534828186
+In-Distribution Independent Split (Seed 1234),37,Classical Baseline (Logistic Regression),42,1,8.7630175475376,0.9998436125454933,1,1,2.4457035927099435e-08
+In-Distribution Independent Split (Seed 1234),37,Ideal VQC (Statevector),42,1,0.28357335741676504,0.6417866787083826,1,1,0.12831678355077153
+In-Distribution Independent Split (Seed 1234),37,Processor A (Noisy 5Q Linear),42,1,0.21142578125,0.605712890625,1,1,0.1554623246192932
+In-Distribution Independent Split (Seed 1234),37,Processor B (Noisy 9Q Mesh),42,1,0.24755859375,0.623779296875,1,1,0.14154201745986938
+In-Distribution Independent Split (Seed 1234),38,Classical Baseline (Logistic Regression),42,0,-2.1355479915841253,0.10568945165645403,0,1,0.011170260191441935
+In-Distribution Independent Split (Seed 1234),38,Ideal VQC (Statevector),42,0,-0.2513385099565708,0.3743307450217146,0,1,0.1401235066685119
+In-Distribution Independent Split (Seed 1234),38,Processor A (Noisy 5Q Linear),42,0,-0.1689453125,0.41552734375,0,1,0.17266297340393066
+In-Distribution Independent Split (Seed 1234),38,Processor B (Noisy 9Q Mesh),42,0,-0.2060546875,0.39697265625,0,1,0.15758728981018066
+In-Distribution Independent Split (Seed 1234),39,Classical Baseline (Logistic Regression),42,0,-1.220265262550945,0.22788977266042035,0,1,0.05193374848321807
+In-Distribution Independent Split (Seed 1234),39,Ideal VQC (Statevector),42,0,-0.30816237853813977,0.3459188107309301,0,1,0.11965982361750105
+In-Distribution Independent Split (Seed 1234),39,Processor A (Noisy 5Q Linear),42,0,-0.2255859375,0.38720703125,0,1,0.14992928504943848
+In-Distribution Independent Split (Seed 1234),39,Processor B (Noisy 9Q Mesh),42,0,-0.2705078125,0.36474609375,0,1,0.1330397129058838
+Out-of-Distribution Generation (Seed 1234),0,Classical Baseline (Logistic Regression),42,1,6.962082487842597,0.9990537740425272,1,1,8.953435625954041e-07
+Out-of-Distribution Generation (Seed 1234),0,Ideal VQC (Statevector),42,1,0.43615574402743684,0.7180778720137184,1,1,0.07948008624831333
+Out-of-Distribution Generation (Seed 1234),0,Processor A (Noisy 5Q Linear),42,1,0.3046875,0.65234375,1,1,0.1208648681640625
+Out-of-Distribution Generation (Seed 1234),0,Processor B (Noisy 9Q Mesh),42,1,0.35107421875,0.675537109375,1,1,0.10527616739273071
+Out-of-Distribution Generation (Seed 1234),1,Classical Baseline (Logistic Regression),42,0,-0.10879495380921872,0.47282805762885016,0,1,0.22356637208107125
+Out-of-Distribution Generation (Seed 1234),1,Ideal VQC (Statevector),42,0,0.06645139317537244,0.5332256965876863,1,0,0.28432964350142326
+Out-of-Distribution Generation (Seed 1234),1,Processor A (Noisy 5Q Linear),42,0,0.0234375,0.51171875,1,0,0.2618560791015625
+Out-of-Distribution Generation (Seed 1234),1,Processor B (Noisy 9Q Mesh),42,0,0.0341796875,0.51708984375,1,0,0.2673819065093994
+Out-of-Distribution Generation (Seed 1234),2,Classical Baseline (Logistic Regression),42,0,5.911302752051835,0.9972986611165864,1,0,0.9946046194649358
+Out-of-Distribution Generation (Seed 1234),2,Ideal VQC (Statevector),42,0,0.5484001252145783,0.7742000626072891,1,0,0.5993857369411304
+Out-of-Distribution Generation (Seed 1234),2,Processor A (Noisy 5Q Linear),42,0,0.38330078125,0.691650390625,1,0,0.4783802628517151
+Out-of-Distribution Generation (Seed 1234),2,Processor B (Noisy 9Q Mesh),42,0,0.46533203125,0.732666015625,1,0,0.5367994904518127
+Out-of-Distribution Generation (Seed 1234),3,Classical Baseline (Logistic Regression),42,1,-8.562920316656028,0.00019102402376988787,0,0,0.9996179884426378
+Out-of-Distribution Generation (Seed 1234),3,Ideal VQC (Statevector),42,1,-0.3234172839903963,0.3382913580048018,0,0,0.43785832689112936
+Out-of-Distribution Generation (Seed 1234),3,Processor A (Noisy 5Q Linear),42,1,-0.2216796875,0.38916015625,0,0,0.3731253147125244
+Out-of-Distribution Generation (Seed 1234),3,Processor B (Noisy 9Q Mesh),42,1,-0.25390625,0.373046875,0,0,0.3930702209472656
+Out-of-Distribution Generation (Seed 1234),4,Classical Baseline (Logistic Regression),42,0,6.2129118895662705,0.9980006102715141,1,0,0.9960052181023146
+Out-of-Distribution Generation (Seed 1234),4,Ideal VQC (Statevector),42,0,0.3407860808979195,0.6703930404489598,1,0,0.4494268286824006
+Out-of-Distribution Generation (Seed 1234),4,Processor A (Noisy 5Q Linear),42,0,0.25048828125,0.625244140625,1,0,0.3909302353858948
+Out-of-Distribution Generation (Seed 1234),4,Processor B (Noisy 9Q Mesh),42,0,0.30712890625,0.653564453125,1,0,0.4271464943885803
+Out-of-Distribution Generation (Seed 1234),5,Classical Baseline (Logistic Regression),42,0,2.7124865534415803,0.9377594385490233,1,0,0.8793927645877795
+Out-of-Distribution Generation (Seed 1234),5,Ideal VQC (Statevector),42,0,0.17008689064186855,0.5850434453209343,1,0,0.3422758329129891
+Out-of-Distribution Generation (Seed 1234),5,Processor A (Noisy 5Q Linear),42,0,0.1416015625,0.57080078125,1,0,0.32581353187561035
+Out-of-Distribution Generation (Seed 1234),5,Processor B (Noisy 9Q Mesh),42,0,0.16064453125,0.580322265625,1,0,0.33677393198013306
+Out-of-Distribution Generation (Seed 1234),6,Classical Baseline (Logistic Regression),42,0,2.123566148363802,0.8931726718493683,1,0,0.7977574217385394
+Out-of-Distribution Generation (Seed 1234),6,Ideal VQC (Statevector),42,0,0.3687648153785442,0.6843824076892722,1,0,0.46837927995456513
+Out-of-Distribution Generation (Seed 1234),6,Processor A (Noisy 5Q Linear),42,0,0.236328125,0.6181640625,1,0,0.3821268081665039
+Out-of-Distribution Generation (Seed 1234),6,Processor B (Noisy 9Q Mesh),42,0,0.27099609375,0.635498046875,1,0,0.4038577675819397
+Out-of-Distribution Generation (Seed 1234),7,Classical Baseline (Logistic Regression),42,1,-3.921376368366466,0.01942884551991521,0,0,0.9615197889984063
+Out-of-Distribution Generation (Seed 1234),7,Ideal VQC (Statevector),42,1,-0.60558656597654,0.19720671701172998,0,0,0.6444770552110846
+Out-of-Distribution Generation (Seed 1234),7,Processor A (Noisy 5Q Linear),42,1,-0.42041015625,0.289794921875,0,0,0.5043912529945374
+Out-of-Distribution Generation (Seed 1234),7,Processor B (Noisy 9Q Mesh),42,1,-0.501953125,0.2490234375,0,0,0.5639657974243164
+Out-of-Distribution Generation (Seed 1234),8,Classical Baseline (Logistic Regression),42,1,1.624357512526354,0.8353952076527085,1,1,0.027094737663694964
+Out-of-Distribution Generation (Seed 1234),8,Ideal VQC (Statevector),42,1,-0.00020543805437492346,0.49989728097281255,0,0,0.2501027295783859
+Out-of-Distribution Generation (Seed 1234),8,Processor A (Noisy 5Q Linear),42,1,0.00439453125,0.502197265625,1,1,0.2478075623512268
+Out-of-Distribution Generation (Seed 1234),8,Processor B (Noisy 9Q Mesh),42,1,0.0009765625,0.50048828125,1,1,0.2495119571685791
+Out-of-Distribution Generation (Seed 1234),9,Classical Baseline (Logistic Regression),42,0,2.568339937493572,0.9287959874587831,1,0,0.862661986319536
+Out-of-Distribution Generation (Seed 1234),9,Ideal VQC (Statevector),42,0,0.18336771740386948,0.5916838587019347,1,0,0.35008978864841106
+Out-of-Distribution Generation (Seed 1234),9,Processor A (Noisy 5Q Linear),42,0,0.14501953125,0.572509765625,1,0,0.32776743173599243
+Out-of-Distribution Generation (Seed 1234),9,Processor B (Noisy 9Q Mesh),42,0,0.177734375,0.5888671875,1,0,0.34676456451416016
+Out-of-Distribution Generation (Seed 1234),10,Classical Baseline (Logistic Regression),42,1,-3.526881961285721,0.028556959600549464,0,0,0.9437015807405285
+Out-of-Distribution Generation (Seed 1234),10,Ideal VQC (Statevector),42,1,-0.30463752858549,0.347681235707255,0,0,0.42551977024841386
+Out-of-Distribution Generation (Seed 1234),10,Processor A (Noisy 5Q Linear),42,1,-0.18896484375,0.405517578125,0,0,0.3534093499183655
+Out-of-Distribution Generation (Seed 1234),10,Processor B (Noisy 9Q Mesh),42,1,-0.24951171875,0.375244140625,0,0,0.3903198838233948
+Out-of-Distribution Generation (Seed 1234),11,Classical Baseline (Logistic Regression),42,1,-8.689068423321395,0.0001683884869140053,0,0,0.9996632513808544
+Out-of-Distribution Generation (Seed 1234),11,Ideal VQC (Statevector),42,1,-0.19658617720523067,0.4017069113973847,0,0,0.35795461986965693
+Out-of-Distribution Generation (Seed 1234),11,Processor A (Noisy 5Q Linear),42,1,-0.13623046875,0.431884765625,0,0,0.3227549195289612
+Out-of-Distribution Generation (Seed 1234),11,Processor B (Noisy 9Q Mesh),42,1,-0.1611328125,0.41943359375,0,0,0.33705735206604004
+Out-of-Distribution Generation (Seed 1234),12,Classical Baseline (Logistic Regression),42,1,-0.9738453060964298,0.2741147149895173,0,0,0.5269094469947496
+Out-of-Distribution Generation (Seed 1234),12,Ideal VQC (Statevector),42,1,-0.0223095842902159,0.48884520785489205,0,0,0.2612792215329085
+Out-of-Distribution Generation (Seed 1234),12,Processor A (Noisy 5Q Linear),42,1,-0.0234375,0.48828125,0,0,0.2618560791015625
+Out-of-Distribution Generation (Seed 1234),12,Processor B (Noisy 9Q Mesh),42,1,-0.03271484375,0.483642578125,0,0,0.26662498712539673
+Out-of-Distribution Generation (Seed 1234),13,Classical Baseline (Logistic Regression),42,1,-0.5039962481005442,0.37660199627441526,0,0,0.38862507104904415
+Out-of-Distribution Generation (Seed 1234),13,Ideal VQC (Statevector),42,1,-0.16512238877553612,0.41743880561223196,0,0,0.3393775452065028
+Out-of-Distribution Generation (Seed 1234),13,Processor A (Noisy 5Q Linear),42,1,-0.119140625,0.4404296875,0,0,0.31311893463134766
+Out-of-Distribution Generation (Seed 1234),13,Processor B (Noisy 9Q Mesh),42,1,-0.14794921875,0.426025390625,0,0,0.32944685220718384
+Out-of-Distribution Generation (Seed 1234),14,Classical Baseline (Logistic Regression),42,1,-2.5970481830706045,0.06932863604327341,0,0,0.8661491876890738
+Out-of-Distribution Generation (Seed 1234),14,Ideal VQC (Statevector),42,1,-0.18708475512276773,0.40645762243861616,0,0,0.35229255396122033
+Out-of-Distribution Generation (Seed 1234),14,Processor A (Noisy 5Q Linear),42,1,-0.14013671875,0.429931640625,0,0,0.32497793436050415
+Out-of-Distribution Generation (Seed 1234),14,Processor B (Noisy 9Q Mesh),42,1,-0.16357421875,0.418212890625,0,0,0.3384762406349182
+Out-of-Distribution Generation (Seed 1234),15,Classical Baseline (Logistic Regression),42,1,-7.710981141260938,0.0004476813178237655,0,0,0.9991048377829147
+Out-of-Distribution Generation (Seed 1234),15,Ideal VQC (Statevector),42,1,-0.456581630175933,0.2717091849120335,0,0,0.5304075113414947
+Out-of-Distribution Generation (Seed 1234),15,Processor A (Noisy 5Q Linear),42,1,-0.32421875,0.337890625,0,0,0.4383888244628906
+Out-of-Distribution Generation (Seed 1234),15,Processor B (Noisy 9Q Mesh),42,1,-0.39697265625,0.301513671875,0,0,0.48788315057754517
+Out-of-Distribution Generation (Seed 1234),16,Classical Baseline (Logistic Regression),42,1,-4.62655618691665,0.009693526364772663,0,0,0.9807069117238393
+Out-of-Distribution Generation (Seed 1234),16,Ideal VQC (Statevector),42,1,-0.6508591684954621,0.17457041575226895,0,0,0.6813339985513821
+Out-of-Distribution Generation (Seed 1234),16,Processor A (Noisy 5Q Linear),42,1,-0.482421875,0.2587890625,0,0,0.5493936538696289
+Out-of-Distribution Generation (Seed 1234),16,Processor B (Noisy 9Q Mesh),42,1,-0.5693359375,0.21533203125,0,0,0.615703821182251
+Out-of-Distribution Generation (Seed 1234),17,Classical Baseline (Logistic Regression),42,1,-6.212375416120962,0.0020004604894408645,0,0,0.996003080863288
+Out-of-Distribution Generation (Seed 1234),17,Ideal VQC (Statevector),42,1,-0.20894989217944665,0.3955250539102767,0,0,0.3653899604501739
+Out-of-Distribution Generation (Seed 1234),17,Processor A (Noisy 5Q Linear),42,1,-0.1474609375,0.42626953125,0,0,0.3291666507720947
+Out-of-Distribution Generation (Seed 1234),17,Processor B (Noisy 9Q Mesh),42,1,-0.18212890625,0.408935546875,0,0,0.3493571877479553
+Out-of-Distribution Generation (Seed 1234),18,Classical Baseline (Logistic Regression),42,0,6.125722617976215,0.9978188568160413,1,0,0.9956424710176716
+Out-of-Distribution Generation (Seed 1234),18,Ideal VQC (Statevector),42,0,0.5489749500533195,0.7744874750266597,1,0,0.5998308489731708
+Out-of-Distribution Generation (Seed 1234),18,Processor A (Noisy 5Q Linear),42,0,0.41064453125,0.705322265625,1,0,0.49747949838638306
+Out-of-Distribution Generation (Seed 1234),18,Processor B (Noisy 9Q Mesh),42,0,0.4658203125,0.73291015625,1,0,0.5371572971343994
+Out-of-Distribution Generation (Seed 1234),19,Classical Baseline (Logistic Regression),42,1,-4.360237605220239,0.012614200943888817,0,0,0.9749307161776752
+Out-of-Distribution Generation (Seed 1234),19,Ideal VQC (Statevector),42,1,-0.260673320159438,0.369663339920281,0,0,0.39732430504045524
+Out-of-Distribution Generation (Seed 1234),19,Processor A (Noisy 5Q Linear),42,1,-0.18505859375,0.407470703125,0,0,0.3510909676551819
+Out-of-Distribution Generation (Seed 1234),19,Processor B (Noisy 9Q Mesh),42,1,-0.21240234375,0.393798828125,0,0,0.3674798607826233
+Out-of-Distribution Generation (Seed 1234),20,Classical Baseline (Logistic Regression),42,0,0.517988876358163,0.6266773782183173,1,0,0.39272453637058385
+Out-of-Distribution Generation (Seed 1234),20,Ideal VQC (Statevector),42,0,-0.009863736092451891,0.4950681319537741,0,1,0.24509245527619947
+Out-of-Distribution Generation (Seed 1234),20,Processor A (Noisy 5Q Linear),42,0,0.0029296875,0.50146484375,1,0,0.2514669895172119
+Out-of-Distribution Generation (Seed 1234),20,Processor B (Noisy 9Q Mesh),42,0,-0.0048828125,0.49755859375,0,1,0.24756455421447754
+Out-of-Distribution Generation (Seed 1234),21,Classical Baseline (Logistic Regression),42,0,3.209976801582249,0.9612080005454351,1,0,0.9239208203125532
+Out-of-Distribution Generation (Seed 1234),21,Ideal VQC (Statevector),42,0,0.2881395497749425,0.6440697748874713,1,0,0.41482587492359796
+Out-of-Distribution Generation (Seed 1234),21,Processor A (Noisy 5Q Linear),42,0,0.20361328125,0.601806640625,1,0,0.3621712327003479
+Out-of-Distribution Generation (Seed 1234),21,Processor B (Noisy 9Q Mesh),42,0,0.2353515625,0.61767578125,1,0,0.38152337074279785
+Out-of-Distribution Generation (Seed 1234),22,Classical Baseline (Logistic Regression),42,1,-1.9042939879528247,0.12962325112359274,0,0,0.7575556849846645
+Out-of-Distribution Generation (Seed 1234),22,Ideal VQC (Statevector),42,1,0.02285981126143285,0.5114299056307164,1,1,0.23870073711201065
+Out-of-Distribution Generation (Seed 1234),22,Processor A (Noisy 5Q Linear),42,1,0.0185546875,0.50927734375,1,1,0.24080872535705566
+Out-of-Distribution Generation (Seed 1234),22,Processor B (Noisy 9Q Mesh),42,1,0.01025390625,0.505126953125,1,1,0.24489933252334595
+Out-of-Distribution Generation (Seed 1234),23,Classical Baseline (Logistic Regression),42,0,8.293213079471162,0.9997498533613359,1,0,0.9994997692960127
+Out-of-Distribution Generation (Seed 1234),23,Ideal VQC (Statevector),42,0,0.23897637939964414,0.6194881896998221,1,0,0.3837656171775628
+Out-of-Distribution Generation (Seed 1234),23,Processor A (Noisy 5Q Linear),42,0,0.1650390625,0.58251953125,1,0,0.3393290042877197
+Out-of-Distribution Generation (Seed 1234),23,Processor B (Noisy 9Q Mesh),42,0,0.18896484375,0.594482421875,1,0,0.3534093499183655
+Out-of-Distribution Generation (Seed 1234),24,Classical Baseline (Logistic Regression),42,1,-7.668584635343454,0.0004670604782521083,0,0,0.9990660971889862
+Out-of-Distribution Generation (Seed 1234),24,Ideal VQC (Statevector),42,1,-0.30280032083678665,0.3485998395816067,0,0,0.42432216899310854
+Out-of-Distribution Generation (Seed 1234),24,Processor A (Noisy 5Q Linear),42,1,-0.2275390625,0.38623046875,0,0,0.3767130374908447
+Out-of-Distribution Generation (Seed 1234),24,Processor B (Noisy 9Q Mesh),42,1,-0.2705078125,0.36474609375,0,0,0.4035475254058838
+Out-of-Distribution Generation (Seed 1234),25,Classical Baseline (Logistic Regression),42,0,1.0666839834652426,0.7439657898544931,1,0,0.5534850964738198
+Out-of-Distribution Generation (Seed 1234),25,Ideal VQC (Statevector),42,0,0.12865968681812,0.56432984340906,1,0,0.31846817216209417
+Out-of-Distribution Generation (Seed 1234),25,Processor A (Noisy 5Q Linear),42,0,0.09130859375,0.545654296875,1,0,0.29773861169815063
+Out-of-Distribution Generation (Seed 1234),25,Processor B (Noisy 9Q Mesh),42,0,0.10498046875,0.552490234375,1,0,0.30524545907974243
+Out-of-Distribution Generation (Seed 1234),26,Classical Baseline (Logistic Regression),42,1,-6.737692461405987,0.0011839758511573684,0,0,0.9976334500965014
+Out-of-Distribution Generation (Seed 1234),26,Ideal VQC (Statevector),42,1,0.09374834304957262,0.5468741715247863,1,1,0.20532301643134876
+Out-of-Distribution Generation (Seed 1234),26,Processor A (Noisy 5Q Linear),42,1,0.08740234375,0.543701171875,1,1,0.2082086205482483
+Out-of-Distribution Generation (Seed 1234),26,Processor B (Noisy 9Q Mesh),42,1,0.09033203125,0.545166015625,1,1,0.20687395334243774
+Out-of-Distribution Generation (Seed 1234),27,Classical Baseline (Logistic Regression),42,1,-9.818745981205941,5.4418825797589035e-05,0,0,0.9998911653098134
+Out-of-Distribution Generation (Seed 1234),27,Ideal VQC (Statevector),42,1,-0.019611102730971268,0.4901944486345144,0,0,0.25990170020306674
+Out-of-Distribution Generation (Seed 1234),27,Processor A (Noisy 5Q Linear),42,1,-0.017578125,0.4912109375,0,0,0.2588663101196289
+Out-of-Distribution Generation (Seed 1234),27,Processor B (Noisy 9Q Mesh),42,1,-0.0126953125,0.49365234375,0,0,0.25638794898986816
+Out-of-Distribution Generation (Seed 1234),28,Classical Baseline (Logistic Regression),42,1,-9.111534052900403,0.00011037306481025568,0,0,0.999779266052593
+Out-of-Distribution Generation (Seed 1234),28,Ideal VQC (Statevector),42,1,-0.11891157556929337,0.44054421221535334,0,0,0.3129907784857396
+Out-of-Distribution Generation (Seed 1234),28,Processor A (Noisy 5Q Linear),42,1,-0.0810546875,0.45947265625,0,0,0.29216980934143066
+Out-of-Distribution Generation (Seed 1234),28,Processor B (Noisy 9Q Mesh),42,1,-0.10546875,0.447265625,0,0,0.3055152893066406
+Out-of-Distribution Generation (Seed 1234),29,Classical Baseline (Logistic Regression),42,0,-5.9797740741416865,0.0025230159732639863,0,1,6.36560960134522e-06
+Out-of-Distribution Generation (Seed 1234),29,Ideal VQC (Statevector),42,0,-0.656212217599935,0.1718938912000325,0,1,0.029547509831888613
+Out-of-Distribution Generation (Seed 1234),29,Processor A (Noisy 5Q Linear),42,0,-0.4521484375,0.27392578125,0,1,0.07503533363342285
+Out-of-Distribution Generation (Seed 1234),29,Processor B (Noisy 9Q Mesh),42,0,-0.55029296875,0.224853515625,0,1,0.05055910348892212
+Out-of-Distribution Generation (Seed 1234),30,Classical Baseline (Logistic Regression),42,1,-2.0680980797468522,0.11223640502524558,0,0,0.7881242005624999
+Out-of-Distribution Generation (Seed 1234),30,Ideal VQC (Statevector),42,1,0.054978092876182216,0.5274890464380911,1,1,0.2232666012359844
+Out-of-Distribution Generation (Seed 1234),30,Processor A (Noisy 5Q Linear),42,1,0.0400390625,0.52001953125,1,1,0.23038125038146973
+Out-of-Distribution Generation (Seed 1234),30,Processor B (Noisy 9Q Mesh),42,1,0.0390625,0.51953125,1,1,0.2308502197265625
+Out-of-Distribution Generation (Seed 1234),31,Classical Baseline (Logistic Regression),42,1,-0.33101949320037627,0.4179925854541369,0,0,0.33873263058636016
+Out-of-Distribution Generation (Seed 1234),31,Ideal VQC (Statevector),42,1,-0.12998263605326776,0.4350086819733661,0,0,0.319215189445473
+Out-of-Distribution Generation (Seed 1234),31,Processor A (Noisy 5Q Linear),42,1,-0.1171875,0.44140625,0,0,0.3120269775390625
+Out-of-Distribution Generation (Seed 1234),31,Processor B (Noisy 9Q Mesh),42,1,-0.13037109375,0.434814453125,0,0,0.3194347023963928
+Out-of-Distribution Generation (Seed 1234),32,Classical Baseline (Logistic Regression),42,1,-6.988643674476552,0.0009214467709183998,0,0,0.9981579555223148
+Out-of-Distribution Generation (Seed 1234),32,Ideal VQC (Statevector),42,1,-0.29772195031868315,0.3511390248406584,0,0,0.42102056508473173
+Out-of-Distribution Generation (Seed 1234),32,Processor A (Noisy 5Q Linear),42,1,-0.23291015625,0.383544921875,0,0,0.38001686334609985
+Out-of-Distribution Generation (Seed 1234),32,Processor B (Noisy 9Q Mesh),42,1,-0.2705078125,0.36474609375,0,0,0.4035475254058838
+Out-of-Distribution Generation (Seed 1234),33,Classical Baseline (Logistic Regression),42,0,4.427180627826686,0.9881929437731617,1,0,0.9765252941230671
+Out-of-Distribution Generation (Seed 1234),33,Ideal VQC (Statevector),42,0,0.14132938008752383,0.570664690043762,1,0,0.3256581884627429
+Out-of-Distribution Generation (Seed 1234),33,Processor A (Noisy 5Q Linear),42,0,0.0849609375,0.54248046875,1,0,0.2942850589752197
+Out-of-Distribution Generation (Seed 1234),33,Processor B (Noisy 9Q Mesh),42,0,0.11328125,0.556640625,1,0,0.3098487854003906
+Out-of-Distribution Generation (Seed 1234),34,Classical Baseline (Logistic Regression),42,1,-2.758270482758695,0.05962126024536141,0,0,0.8843121741825223
+Out-of-Distribution Generation (Seed 1234),34,Ideal VQC (Statevector),42,1,-0.2984594315427993,0.35077028422860035,0,0,0.4214992238406124
+Out-of-Distribution Generation (Seed 1234),34,Processor A (Noisy 5Q Linear),42,1,-0.22607421875,0.386962890625,0,0,0.3758144974708557
+Out-of-Distribution Generation (Seed 1234),34,Processor B (Noisy 9Q Mesh),42,1,-0.265625,0.3671875,0,0,0.40045166015625
+Out-of-Distribution Generation (Seed 1234),35,Classical Baseline (Logistic Regression),42,1,-0.23817527784397358,0.4407360737010933,0,0,0.312776139259269
+Out-of-Distribution Generation (Seed 1234),35,Ideal VQC (Statevector),42,1,0.12572397096112814,0.5628619854805641,1,1,0.19108964373799456
+Out-of-Distribution Generation (Seed 1234),35,Processor A (Noisy 5Q Linear),42,1,0.0888671875,0.54443359375,1,1,0.20754075050354004
+Out-of-Distribution Generation (Seed 1234),35,Processor B (Noisy 9Q Mesh),42,1,0.095703125,0.5478515625,1,1,0.2044382095336914
+Out-of-Distribution Generation (Seed 1234),36,Classical Baseline (Logistic Regression),42,0,-1.3213265209170475,0.21059767962652784,0,1,0.044351382664077656
+Out-of-Distribution Generation (Seed 1234),36,Ideal VQC (Statevector),42,0,-0.21941961651533354,0.39029019174233326,0,1,0.15232643377026725
+Out-of-Distribution Generation (Seed 1234),36,Processor A (Noisy 5Q Linear),42,0,-0.16943359375,0.415283203125,0,1,0.17246013879776
+Out-of-Distribution Generation (Seed 1234),36,Processor B (Noisy 9Q Mesh),42,0,-0.2041015625,0.39794921875,0,1,0.15836358070373535
+Out-of-Distribution Generation (Seed 1234),37,Classical Baseline (Logistic Regression),42,0,7.4273287274703454,0.999405579350362,1,0,0.9988115120366328
+Out-of-Distribution Generation (Seed 1234),37,Ideal VQC (Statevector),42,0,0.2935546196179553,0.6467773098089776,1,0,0.4183208884837382
+Out-of-Distribution Generation (Seed 1234),37,Processor A (Noisy 5Q Linear),42,0,0.212890625,0.6064453125,1,0,0.36777591705322266
+Out-of-Distribution Generation (Seed 1234),37,Processor B (Noisy 9Q Mesh),42,0,0.2421875,0.62109375,1,0,0.3857574462890625
+Out-of-Distribution Generation (Seed 1234),38,Classical Baseline (Logistic Regression),42,0,1.005076733201599,0.7320555533440244,1,0,0.5359053331818258
+Out-of-Distribution Generation (Seed 1234),38,Ideal VQC (Statevector),42,0,0.14427278082194245,0.5721363904109712,1,0,0.32734004923249527
+Out-of-Distribution Generation (Seed 1234),38,Processor A (Noisy 5Q Linear),42,0,0.08349609375,0.541748046875,1,0,0.2934909462928772
+Out-of-Distribution Generation (Seed 1234),38,Processor B (Noisy 9Q Mesh),42,0,0.10498046875,0.552490234375,1,0,0.30524545907974243
+Out-of-Distribution Generation (Seed 1234),39,Classical Baseline (Logistic Regression),42,0,10.311027734218458,0.9999667368705424,1,0,0.9999334748475206
+Out-of-Distribution Generation (Seed 1234),39,Ideal VQC (Statevector),42,0,0.14209261743548313,0.5710463087177415,1,0,0.32609388670015815
+Out-of-Distribution Generation (Seed 1234),39,Processor A (Noisy 5Q Linear),42,0,0.08984375,0.544921875,1,0,0.2969398498535156
+Out-of-Distribution Generation (Seed 1234),39,Processor B (Noisy 9Q Mesh),42,0,0.0986328125,0.54931640625,1,0,0.30174851417541504

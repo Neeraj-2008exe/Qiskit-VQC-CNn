@@ -1,0 +1,3 @@
+processor,accuracy,f1,recall,depth,cx_count,swap_count
+Processor A,0.925,0.9143,0.8421,104,42,10
+Processor B,0.925,0.9143,0.8421,40,12,0
