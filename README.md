@@ -1,4 +1,4 @@
-# QFF2026 QML Track - Phase 2: PS-Q1 + Task A + Task B
+# QFF2026 QML Track - Phase 2: PS-Q1
 
 **Problem statement: PS-Q1 (ECG heartbeat classification, QML-BIO-MITBIH).** Common tasks: **Task A** (Bell state) and **Task B** (Processor D).
 Team: _TEAM NAME_ (same team and PS as Phase 1).
