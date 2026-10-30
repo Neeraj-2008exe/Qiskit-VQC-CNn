@@ -1,0 +1,23 @@
+stage,config_id,encoding,layers,lr,seed,qubits,quantum_params,effective_quantum_params,readout_params,logical_depth,logical_gates,logical_cx,transpiled_depth,transpiled_gates,transpiled_cx,circuit_evals,gradient_circuit_executions,shots,train_time_s,eval_time_s,verification_status
+training,scaled_L1_lr0.01_s42,scaled,1,0.01,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,155.2,n/a,completed 30 epochs
+training,scaled_L1_lr0.001_s42,scaled,1,0.001,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,154.9,n/a,completed 30 epochs
+training,scaled_L2_lr0.01_s42,scaled,2,0.01,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,226.0,n/a,completed 30 epochs
+training,scaled_L2_lr0.001_s42,scaled,2,0.001,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,224.4,n/a,completed 30 epochs
+training,direct_L1_lr0.01_s42,direct,1,0.01,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,154.8,n/a,completed 30 epochs
+training,direct_L1_lr0.001_s42,direct,1,0.001,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,154.4,n/a,completed 30 epochs
+training,direct_L2_lr0.01_s42,direct,2,0.01,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,225.4,n/a,completed 30 epochs
+training,direct_L2_lr0.001_s42,direct,2,0.001,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,225.7,n/a,completed 30 epochs
+training,scaled_L2_lr0.001_s43,scaled,2,0.001,43,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.5,n/a,completed 30 epochs
+training,scaled_L2_lr0.001_s44,scaled,2,0.001,44,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.0,n/a,completed 30 epochs
+training,scaled_L2_lr0.001_s45,scaled,2,0.001,45,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.1,n/a,completed 30 epochs
+training,scaled_L2_lr0.001_s46,scaled,2,0.001,46,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.6,n/a,completed 30 epochs
+training,direct_L2_lr0.01_s43,direct,2,0.01,43,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.4,n/a,completed 30 epochs
+training,direct_L2_lr0.01_s44,direct,2,0.01,44,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,269.1,n/a,completed 30 epochs
+training,direct_L2_lr0.01_s45,direct,2,0.01,45,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,270.5,n/a,completed 30 epochs
+training,direct_L2_lr0.01_s46,direct,2,0.01,46,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a (exact statevector),n/a,n/a,405000,not exposed (backprop through simulator),0,269.1,n/a,completed 30 epochs
+ideal_eval_canonical,scaled_L2_lr0.001_s42,scaled,2,0.001,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a,n/a,n/a,1500,0,0,n/a,0.026,exact statevector; reload check max|dp|=5.6e-16
+noisy_eval_canonical,scaled_L2_lr0.001_s42,scaled,2,0.001,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,"21.0 (min 21, max 21)","1q 16.0 (min 16, max 16), cx 16-16, measure 1",16,7500,0,61440000,n/a,46.6,all noise checks passed
+ideal_eval_direct_ablation,direct_L2_lr0.01_s42,direct,2,0.01,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,n/a,n/a,n/a,1500,0,0,n/a,0.0188,exact statevector
+noisy_eval_direct_ablation,direct_L2_lr0.01_s42,direct,2,0.01,42,4,16,10,2,21,"cx:16, ry:12, rz:8",16,"21.0 (min 21, max 21)","1q 16.0 (min 16, max 16), cx 16-16, measure 1",16,7500,0,61440000,n/a,46.5,basis/noise coverage verified
+ideal_eval_scaled_1layer,scaled_L1_lr0.01_s42,scaled,1,0.01,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,n/a,n/a,n/a,1500,0,0,n/a,0.0117,exact statevector
+noisy_eval_scaled_1layer,scaled_L1_lr0.01_s42,scaled,1,0.01,42,4,8,3,2,11,"cx:8, ry:8, rz:4",8,"11.0 (min 11, max 11)","1q 8.0 (min 8, max 8), cx 8-8, measure 1",8,7500,0,61440000,n/a,42.7,basis/noise coverage verified

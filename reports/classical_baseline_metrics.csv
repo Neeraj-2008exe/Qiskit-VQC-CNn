@@ -1,0 +1,11 @@
+C,class_weight,solver,random_state,n_iter,convergence_status,train_macro_f1,val_macro_f1,val_accuracy,prec_normal_0,rec_normal_0,f1_normal_0,prec_arrhythmia_1,rec_arrhythmia_1,f1_arrhythmia_1,confusion_matrix,tn,fp,fn,tp
+0.01,None,lbfgs,42,12,Converged (12 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+0.1,None,lbfgs,42,14,Converged (14 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+1.0,None,lbfgs,42,11,Converged (11 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+10.0,None,lbfgs,42,11,Converged (11 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+100.0,None,lbfgs,42,11,Converged (11 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+0.01,balanced,lbfgs,42,12,Converged (12 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+0.1,balanced,lbfgs,42,13,Converged (13 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+1.0,balanced,lbfgs,42,10,Converged (10 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+10.0,balanced,lbfgs,42,11,Converged (11 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601
+100.0,balanced,lbfgs,42,11,Converged (11 iters),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"[[899, 0], [0, 601]]",899,0,0,601

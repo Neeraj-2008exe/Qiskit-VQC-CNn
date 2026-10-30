@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Processor D Configuration Schema - QFF2026 QML Track (kit v3)",
+  "type": "object",
+  "required": [
+    "processor_id",
+    "n_qubits",
+    "coupling_map",
+    "native_gate_set",
+    "qubit_layout",
+    "noise_assumptions",
+    "design_rationale",
+    "benchmark_results"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "processor_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique ID, e.g. 'team_alpha_proc_v1'"
+    },
+    "n_qubits": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 9,
+      "description": "3 to 9. At least 3 because the Task B benchmark is a 3-qubit QFT."
+    },
+    "coupling_map": {
+      "type": "array",
+      "minItems": 1,
+      "description": "DIRECTED pairs [control, target]. The benchmark transpiles with direction ENFORCED: a CX/CZ on a pair listed only one way is reversed with extra single-qubit gates, which cost depth and noise. List both [a,b] and [b,a] for a two-way link. Qubits are numbered 0..n_qubits-1 and the graph (ignoring direction) must be connected.",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "native_gate_set": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "description": "Gates your processor runs natively. Must contain cx or cz, and enough single-qubit gates to compile any circuit (e.g. rx, ry, rz). Only gates that carry benchmark noise are allowed.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "rx",
+          "ry",
+          "rz",
+          "h",
+          "x",
+          "y",
+          "z",
+          "s",
+          "sdg",
+          "t",
+          "tdg",
+          "sx",
+          "cx",
+          "cz"
+        ]
+      }
+    },
+    "qubit_layout": {
+      "type": "string",
+      "enum": [
+        "linear",
+        "ring",
+        "star",
+        "grid",
+        "heavy_hex",
+        "custom"
+      ]
+    },
+    "noise_assumptions": {
+      "type": "object",
+      "required": [
+        "single_qubit_error_rate",
+        "two_qubit_error_rate",
+        "notes"
+      ],
+      "description": "Your own assumptions, explained in your report. They do NOT change the Task B benchmark, which always uses noise_model/benchmark_noise_model.py.",
+      "properties": {
+        "single_qubit_error_rate": {
+          "type": "number"
+        },
+        "two_qubit_error_rate": {
+          "type": "number"
+        },
+        "readout_error_rate": {
+          "type": "number"
+        },
+        "t1_us": {
+          "type": "number"
+        },
+        "t2_us": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "design_rationale": {
+      "type": "string",
+      "minLength": 50,
+      "description": "3-6 sentences justifying the topology and gate set for your PS circuit."
+    },
+    "benchmark_results": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Paste the output of: python benchmark/qff_qml_benchmark.py processor_d_config.json",
+      "required": [
+        "qft3_circuit_depth_before_transpile",
+        "qft3_circuit_depth_after_transpile",
+        "qft3_two_qubit_gate_count",
+        "qft3_swap_overhead",
+        "qft3_fidelity_ideal",
+        "qft3_fidelity_noisy",
+        "benchmark_noise_model_version"
+      ],
+      "properties": {
+        "qft3_circuit_depth_before_transpile": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qft3_circuit_depth_after_transpile": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qft3_two_qubit_gate_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qft3_swap_overhead": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qft3_fidelity_ideal": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "qft3_fidelity_noisy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "benchmark_noise_model_version": {
+          "type": "string",
+          "const": "QFF2026-v2"
+        }
+      }
+    }
+  }
+}

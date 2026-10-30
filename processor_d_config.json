@@ -1,0 +1,72 @@
+{
+  "processor_id": "qff_team_ring4_chord_v1",
+  "n_qubits": 4,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "native_gate_set": [
+    "rx",
+    "ry",
+    "rz",
+    "h",
+    "cx"
+  ],
+  "qubit_layout": "custom",
+  "noise_assumptions": {
+    "single_qubit_error_rate": 0.001,
+    "two_qubit_error_rate": 0.01,
+    "readout_error_rate": 0.02,
+    "t1_us": 100,
+    "t2_us": 80,
+    "notes": "Conservative superconducting estimates. Not used by the Task B benchmark."
+  },
+  "design_rationale": "Our PS-Q1 circuit uses 4 qubits and a bidirectional CX ring (0-1, 1-2, 2-3, 3-0 in both directions) in every ansatz layer, so a 4-qubit ring with two-way links runs it with zero SWAPs; transpiled depth is 22 with 16 CX for 2 layers, versus 36 depth and 34 CX on the 5-qubit linear example. The single chord 0-2 closes a triangle (0-1-2) that QFT-3 needs for its three controlled-phase pairs, which removes the one SWAP a plain ring costs and gives 9 two-qubit gates. Every link is listed in both directions because the benchmark enforces direction and one-way links add single-qubit gates. The native set rx, ry, rz, h, cx covers our RY/RZ rotations directly and lets QFT-3 use native Hadamards, which lowered depth from 18 to 16 and raised noisy fidelity from 0.668 to 0.677. We stopped at one chord because extra links (a second chord, or a full triangle on 3 qubits) did not improve the benchmark further and add crosstalk risk in real devices.",
+  "benchmark_results": {
+    "qft3_circuit_depth_before_transpile": 6,
+    "qft3_circuit_depth_after_transpile": 16,
+    "qft3_two_qubit_gate_count": 9,
+    "qft3_swap_overhead": 0,
+    "qft3_fidelity_ideal": 1.0,
+    "qft3_fidelity_noisy": 0.677499,
+    "benchmark_noise_model_version": "QFF2026-v2"
+  }
+}
