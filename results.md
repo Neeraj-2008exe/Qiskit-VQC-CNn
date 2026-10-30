@@ -1,6 +1,7 @@
 # QFF2026 QML Track — Results Report
 
-**Team name:** _TEAM NAME_
+**Team name:** Deuterium
+**Members:** Charan Reddy, Krishna Neeraj, Ismail Mohammad
 **Selected PS:** [x] PS-Q1  [ ] PS-Q2  [ ] PS-Q3
 **Date:** 2026-10-30
 **Dependency versions:** pennylane==0.44.1, PennyLane-qiskit==0.44.1, qiskit==2.3.0, qiskit-aer==0.17.2, scikit-learn==1.9.1, numpy==2.4.6, pandas==3.1.0 (Python 3.13.13; full list in README.md)

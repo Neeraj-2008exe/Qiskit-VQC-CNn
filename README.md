@@ -1,7 +1,10 @@
 # QFF2026 QML Track - Phase 2: PS-Q1
 
 **Problem statement: PS-Q1 (ECG heartbeat classification, QML-BIO-MITBIH).** Common tasks: **Task A** (Bell state) and **Task B** (Processor D).
-Team: _TEAM NAME_ (same team and PS as Phase 1).
+**Team:** Deuterium
+**Members:** Charan Reddy, Krishna Neeraj, Ismail Mohammad
+
+(Same team and problem statement as Phase 1.)
 
 Everything runs from `solution.ipynb`: Task A, Task B, the classical baseline, the hybrid quantum classifier (training, ideal and noisy evaluation) and the test predictions.
 The full report is [`results.md`](results.md).
